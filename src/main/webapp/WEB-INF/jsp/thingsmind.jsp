@@ -359,43 +359,135 @@
                                 </div>
                                 <div class="col s2">
                                     <div id="reboot-cp-container">
-                                        <!--<iframe src="control-panel-cards.htm" width="270px" height="245px" frameborder="0"></iframe>-->
-                                        <iframe
-                                                src="${pageContext.request.contextPath}/resources/html/controls/reboot-control-panel-cards.htm" width="190px" height="210px" frameborder="0"></iframe>
+                                        <div class="row">
+                                            <div class="col s12 m6">
+                                                <!--<div class="card small" style="height: 200px; width: 250px;">-->
+                                                <!--<div class="card-image" style="float: left; width: 45%; height: 120px; left: 10px; top: 10px;">-->
+                                                <div class="card small" style="height: 165px; width: 160px;">
+                                                    <div class="card-image" style="float: left; width: 100%; height: 120px; left: 40px; top: 10px;">
+                                                        <i class="large material-icons orange-text text-darken-1">power_settings_new</i>
+                                                        <!--<span class="card-title" style="padding-left: 20px;">Controls</span>-->
+                                                    </div>
+                                                    <!--<div style="width: 50%; float: left;">-->
+                                                    <div style="width: 0%; float: left;">
+                                                        <div class="card-content">
+                                                            <!--<p align="left">To control Raspberry PI remotely.</p>-->
+                                                        </div>
+                                                        <div class="card-action">
+                                                            <a href="#">Reboot</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="col s2">
                                     <div id="volume-mute-cp-container">
-                                        <iframe
-                                                src="${pageContext.request.contextPath}/resources/html/controls/volume-off-control-panel-cards.htm" width="190px" height="210px" frameborder="0"></iframe>
+                                        <div class="row">
+                                            <div class="col s12 m6">
+                                                <!--<div class="card small" style="height: 200px; width: 250px;">-->
+                                                <div class="card small" style="height: 165px; width: 160px;">
+                                                    <div class="card-image" style="float: left; width: 100%; height: 120px; left: 40px; top: 10px;">
+                                                        <!--<img src="img/reboot.jpg" height="100%">-->
+                                                        <i class="large material-icons red-text text-lighten-1">volume_off</i>
+                                                        <!--<span class="card-title" style="padding-left: 20px;">Controls</span>-->
+                                                    </div>
+                                                    <!--<div style="width: 50%; float: left;">-->
+                                                    <div style="width: 0%; float: left;">
+
+                                                        <div class="card-content">
+                                                            <p align="left">To off Raspberry PI volume remotely.</p>
+                                                        </div>
+                                                        <div class="card-action">
+                                                            <a href="#">Volume Off</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="col s2">
                                     <div id="volume-down-cp-container">
-                                        <iframe
-                                                src="${pageContext.request.contextPath}/resources/html/controls/volume-down-control-panel-cards.htm" width="190px" height="210px" frameborder="0"></iframe>
+                                        <div class="row">
+                                            <div class="col s12 m6">
+                                                <!--<div class="card small" style="height: 200px; width: 250px;">-->
+                                                <div class="card small" style="height: 165px; width: 160px;">
+                                                    <div class="card-image" style="float: left; width: 100%; height: 120px; left: 30px; top: 10px;">
+                                                        <!--<img src="img/reboot.jpg" height="100%">-->
+                                                        <i class="large material-icons blue-text text-darken-1">volume_down</i>
+                                                        <!--<span class="card-title" style="padding-left: 20px;">Controls</span>-->
+                                                    </div>
+                                                    <!--<div style="width: 50%; float: left;">-->
+                                                    <div style="width: 0%; float: left;">
+
+                                                        <div class="card-content">
+                                                            <p align="left">To reduce Raspberry PI volume remotely.</p>
+                                                        </div>
+                                                        <div class="card-action">
+                                                            <a href="#">Volume Down</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="col s2">
                                     <div id="volume-up-cp-container">
-                                        <iframe
-                                                src="${pageContext.request.contextPath}/resources/html/controls/volume-up-control-panel-cards.htm" width="190px" height="210px" frameborder="0"></iframe>
+                                        <div class="row">
+                                            <div class="col s12 m6">
+                                                <!--<div class="card small" style="height: 200px; width: 250px;">-->
+                                                <div class="card small" style="height: 165px; width: 160px;">
+                                                    <div class="card-image" style="float: left; width: 100%; height: 120px; left: 40px; top: 10px;">
+                                                        <!--<img src="img/reboot.jpg" height="100%">-->
+                                                        <i class="large material-icons blue-text text-darken-1">volume_up</i>
+                                                        <!--<span class="card-title" style="padding-left: 20px;">Controls</span>-->
+                                                    </div>
+                                                    <!--<div style="width: 50%; float: left;">-->
+                                                    <div style="width: 0%; float: left;">
+
+                                                        <div class="card-content">
+                                                            <p align="left">To increase Raspberry PI volume remotely.</p>
+                                                        </div>
+                                                        <div class="card-action">
+                                                            <a href="#">Volume Up</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <!--<div class="col s2">
-                                    <div id="volume-off-cp-container">
-                                        <iframe src="volume-off-control-panel-cards.htm" width="190px" height="210px" frameborder="0"></iframe>
-                                    </div>
-                                </div>-->
-
                                 <div class="col s2">
                                     <div id="reset-cp-container">
-                                        <iframe
-                                                src="${pageContext.request.contextPath}/resources/html/controls/reset-control-panel-cards.htm" width="210px" height="210px" frameborder="0"></iframe>
+                                        <div class="row">
+                                            <div class="col s12 m6">
+                                                <!--<div class="card small" style="height: 200px; width: 250px;">-->
+                                                <!--<div class="card-image" style="float: left; width: 45%; height: 120px; left: 10px; top: 10px;">-->
+                                                <div class="card small" style="height: 165px; width: 190px;">
+                                                    <div class="card-image" style="float: left; width: 100%; height: 120px; left: 50px; top: 10px;">
+                                                        <i class="large material-icons orange-text text-darken-4">settings_backup_restore</i>
+                                                        <!--<i class="large material-icons orange-text text-darken-4">restore</i>-->
+                                                        <!--<span class="card-title" style="padding-left: 20px;">Controls</span>-->
+                                                    </div>
+                                                    <!--<div style="width: 50%; float: left;">-->
+                                                    <div style="width: 0%; float: left;">
+                                                        <div class="card-content">
+                                                            <!--<p align="left">To control Raspberry PI remotely.</p>-->
+                                                        </div>
+                                                        <div class="card-action">
+                                                            <a href="#">Reset to Factory</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -412,29 +504,145 @@
 
                                 <div class="col s2">
                                         <div id="location-cp-container">
-                                            <iframe
-                                                    src="${pageContext.request.contextPath}/resources/html/controls/location-off-control-panel-cards.htm" width="190px" height="210px" frameborder="0"></iframe>
+                                            <div class="row">
+                                                <div class="col s12 m6">
+                                                    <!--<div class="card small" style="height: 200px; width: 250px;">-->
+                                                    <div class="card small" style="height: 165px; width: 160px;">
+                                                        <div class="card-image" style="float: left; width: 100%; height: 120px; left: 40px; top: 10px;">
+                                                            <!--<img src="img/reboot.jpg" height="100%">-->
+                                                            <i class="large material-icons green-text text-darken-1">location_on</i>
+                                                            <!--<span class="card-title" style="padding-left: 20px;">Controls</span>-->
+                                                        </div>
+                                                        <!--<div style="width: 50%; float: left;">-->
+                                                        <div style="width: 0%; float: left;">
+
+                                                            <div class="card-content">
+                                                                <p align="left">To increase Raspberry PI volume remotely.</p>
+                                                            </div>
+                                                            <div class="card-action">
+                                                                <!--<a href="#">Volume Up</a>-->
+                                                                <!-- Switch -->
+                                                                <div class="switch">
+                                                                    <label>
+                                                                        Off
+                                                                        <input type="checkbox">
+                                                                        <span class="lever"></span>
+                                                                        On
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                 </div>
 
                                 <div class="col s2">
                                     <div id="wifi-prem-cp-container">
-                                        <iframe
-                                                src="${pageContext.request.contextPath}/resources/html/controls/wifi-prem-control-panel-cards.htm" width="190px" height="210px" frameborder="0"></iframe>
+                                        <div class="row">
+                                            <div class="col s12 m6">
+                                                <!--<div class="card small" style="height: 200px; width: 250px;">-->
+                                                <div class="card small" style="height: 165px; width: 160px;">
+                                                    <div class="card-image" style="float: left; width: 100%; height: 120px; left: 40px; top: 10px;">
+                                                        <!--<img src="img/reboot.jpg" height="100%">-->
+                                                        <i class="large material-icons lime-text text-darken-1">perm_scan_wifi</i>
+                                                        <!--<span class="card-title" style="padding-left: 20px;">Controls</span>-->
+                                                    </div>
+                                                    <!--<div style="width: 50%; float: left;">-->
+                                                    <div style="width: 0%; float: left;">
+
+                                                        <div class="card-content">
+                                                            <p align="left">To increase Raspberry PI volume remotely.</p>
+                                                        </div>
+                                                        <div class="card-action">
+                                                            <!--<a href="#">Volume Up</a>-->
+                                                            <!-- Switch -->
+                                                            <div class="switch">
+                                                                <label>
+                                                                    Off
+                                                                    <input checked type="checkbox">
+                                                                    <span class="lever"></span>
+                                                                    On
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="col s2">
                                     <div id="videocam-cp-container">
-                                        <iframe
-                                                src="${pageContext.request.contextPath}/resources/html/controls/videocam-control-panel-cards.htm" width="190px" height="210px" frameborder="0"></iframe>
+                                        <div class="row">
+                                            <div class="col s12 m6">
+                                                <!--<div class="card small" style="height: 200px; width: 250px;">-->
+                                                <div class="card small" style="height: 165px; width: 160px;">
+                                                    <div class="card-image" style="float: left; width: 100%; height: 120px; left: 40px; top: 10px;">
+                                                        <!--<img src="img/reboot.jpg" height="100%">-->
+                                                        <i class="large material-icons brown-text text-darken-2">videocam</i>
+                                                        <!--<span class="card-title" style="padding-left: 20px;">Controls</span>-->
+                                                    </div>
+                                                    <!--<div style="width: 50%; float: left;">-->
+                                                    <div style="width: 0%; float: left;">
+
+                                                        <div class="card-content">
+                                                            <p align="left">To increase Raspberry PI volume remotely.</p>
+                                                        </div>
+                                                        <div class="card-action">
+                                                            <!--<a href="#">Volume Up</a>-->
+                                                            <!-- Switch -->
+                                                            <div class="switch">
+                                                                <label>
+                                                                    Off
+                                                                    <input checked type="checkbox">
+                                                                    <span class="lever"></span>
+                                                                    On
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="col s2">
                                     <div id="wifi-cp-container">
-                                        <iframe
-                                                src="${pageContext.request.contextPath}/resources/html/controls/wifi-control-panel-cards.htm" width="190px" height="210px" frameborder="0"></iframe>
+                                        <div class="row">
+                                            <div class="col s12 m6">
+                                                <!--<div class="card small" style="height: 200px; width: 250px;">-->
+                                                <div class="card small" style="height: 165px; width: 160px;">
+                                                    <div class="card-image" style="float: left; width: 100%; height: 120px; left: 40px; top: 10px;">
+                                                        <!--<img src="img/reboot.jpg" height="100%">-->
+                                                        <i class="large material-icons orange-text text-darken-1">portable_wifi_off</i>
+                                                        <!--<span class="card-title" style="padding-left: 20px;">Controls</span>-->
+                                                    </div>
+                                                    <!--<div style="width: 50%; float: left;">-->
+                                                    <div style="width: 0%; float: left;">
+
+                                                        <div class="card-content">
+                                                            <p align="left">To increase Raspberry PI volume remotely.</p>
+                                                        </div>
+                                                        <div class="card-action">
+                                                            <!--<a href="#">Volume Up</a>-->
+                                                            <!-- Switch -->
+                                                            <div class="switch">
+                                                                <label>
+                                                                    Off
+                                                                    <input type="checkbox">
+                                                                    <span class="lever"></span>
+                                                                    On
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -622,9 +830,26 @@
 
             <div class="col s3">
                 <div id="critical-alarm-on-temperature-today-container">
-                    <iframe
-                            src="${pageContext.request.contextPath}/resources/html/controls/attention-needed-device-cards.htm"
-                            width="340px" height="240px" frameborder="0"></iframe>
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <!--<div class="card small" style="height: 200px; width: 250px;">-->
+                            <div class="card small" style="height: 195px; width: 300px;">
+                                <div class="card-image" style="float: left; width: 45%; height: 120px; left: 35px; top: 10px;">
+                                    <span class="card-title red-text text-lighten-2 no-padding center-align">Heat</span>
+                                    <i class="large material-icons red-text text-darken-2">invert_colors</i>
+                                </div>
+                                <div style="width: 50%; float: left;">
+
+                                    <div class="card-content">
+                                        <p align="left">Abnormal temperature today - attention needed.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="#">parkingpi@Chennai</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!--<iframe src="controls/volume-off-control-panel-cards.htm" width="190px" height="210px" frameborder="0"></iframe>-->
                 </div>
             </div>
@@ -701,11 +926,6 @@
                     &nbsp;
                 </div>
             </div>
-            <!--<div id="map-container">
-                <iframe src="maps/map.htm" width="700" height="550"></iframe>
-                <br/>
-                <iframe src="charts/device-location-distribution-chart.htm" width="700px" height="520px"></iframe>
-            </div>-->
         </div>
         <div class="fixed-action-btn">
             <a class="btn-floating btn-large blue">
