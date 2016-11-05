@@ -1,0 +1,7 @@
+bin
+.idea
+.idea\libraries
+target
+.classpath
+.project
+dynamic-master-detail-index.htm

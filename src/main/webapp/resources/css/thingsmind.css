@@ -1,0 +1,27 @@
+.pull-nav-bar {
+    margin-top: 64px;
+}
+.thingsmind-icons {
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.thingsmind-container {
+    margin-left: 242px;
+    background-color: #FCFCFC;
+}
+
+.thingsmind-type {
+    height: 18px;
+    width: 15px;
+    vertical-align: top;
+    margin-right: 8px;
+}
+
+.device-listing-view td {
+    cursor: pointer;
+}
+
+.force-down {
+    position: absolute;
+    top: 13px;
+}
