@@ -19,5 +19,8 @@
     <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping">
     </bean>
 
+    <bean id="thingsMindPubNubClient" class="com.thingsmind.pubnub.ThingsMindPubNubClient"
+          init-method="initialize" />
+
     <beans:import resource="controllers.xml" />
 </beans>
