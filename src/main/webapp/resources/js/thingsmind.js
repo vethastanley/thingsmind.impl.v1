@@ -76,33 +76,11 @@ $(document).ready(function() {
         $(".ban-tester7-done").show();
     });
 
-    var responseValue = '';
-    $("#softwareag-bengaluru-refresh").click(function () {
-        $.ajax({
-            type: "GET",
-            /*dataType: "jsonp",*/
-            url: "http://localhost:8080/thingsmind/getOnboardedStatus",
-            success: function (responseData) {
-                alert(responseData);
-                if (responseData === 'ONBOARDED') {
-                    $("#softwareag-bengaluru").show();
-                    $("#india-map-container").hide();
-                    $("#india-map-plus-6th-locationcontainer").show();
-                    alert("block display");
-                }
-                else {
-                    $("#softwareag-bengaluru").hide();
-                    $("#india-map-container").show();
-                    $("#india-map-plus-6th-locationcontainer").hide();
-                    alert("none display");
-                }
-                responseValue = responseData;
-            }
-
-        });
+    $(".device-refresh").click(function () {
+        refreshOnBoardingStatus();
     });
 
-    alert("responseData : " + responseValue);
+    refreshOnBoardingStatus();
 });
 
 function hideAll(menus) {
@@ -112,12 +90,23 @@ function hideAll(menus) {
     });
 }
 
-/*function showLocation() {
-    if( document.getElementById("softwareag-bengaluru").style.display == 'none' ){
-        document.getElementById("softwareag-bengaluru").style.display = 'block';
-    }else{
-        document.getElementById("softwareag-bengaluru").style.display = 'none';
-    }
-}*/
+function refreshOnBoardingStatus() {
+    $.ajax({
+        type: "GET",
+        url: "http://localhost:8080/thingsmind/getOnboardedStatus",
+        success: function (responseData) {
+            if (responseData === 'ONBOARDED') {
+                $("#softwareag-bengaluru").show();
+                $("#india-map-container").hide();
+                $("#india-map-plus-6th-locationcontainer").show();
+            }
+            else {
+                $("#softwareag-bengaluru").hide();
+                $("#india-map-container").show();
+                $("#india-map-plus-6th-locationcontainer").hide();
+            }
+        }
+    });
+}
 
 

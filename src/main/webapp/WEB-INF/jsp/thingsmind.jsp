@@ -46,9 +46,6 @@
             <div class="col s11">
                 &nbsp;
             </div>
-            <div class="col s1">
-                <a id="softwareag-bengaluru-refresh" href="#" class="text-darken-2 green-text"><i class="material-icons">replay</i> refresh</a>
-                </div>
             <div class="col s12 center-align">
                 <table class="devices-table highlight">
                     <thead>
@@ -103,7 +100,7 @@
                         <i class="material-icons">menu</i>
                     </a>
                     <ul>
-                        <li><a class="tooltipped device-update btn-floating green"
+                        <li><a class="tooltipped device-update btn-floating grey"
                                data-position="left" data-tooltip="Firmware Upgrade"><i
                                 class="material-icons">system_update_alt</i></a></li>
                         <li><a class="tooltipped device-location btn-floating red"
@@ -112,6 +109,9 @@
                         <li><a class="tooltipped device-monitoring btn-floating yellow darken-3"
                                data-position="left" data-tooltip="Monitoring"><i
                                 class="material-icons">insert_chart</i></a></li>
+                        <li><a class="tooltipped device-refresh btn-floating green darken-3"
+                               data-position="left" data-tooltip="Refresh"><i
+                                class="material-icons">replay</i></a></li>
                     </ul>
                 </div>
             </div>
@@ -699,7 +699,7 @@
                                             <td>Pi Camera</td>
                                             <td>0.6.3</td>
                                             <td>
-                                                <B class="red-text text-lighten-2">INSTALLED</B>
+                                                <B class="green-text text-lighten-2">INSTALLED</B>
                                             </td>
                                             <td>
                                                 <a class="tooltipped sw-update" data-position="right" data-delay="10"
@@ -1477,7 +1477,7 @@
                 <i class="material-icons">menu</i>
             </a>
             <ul>
-                <li><a class="tooltipped device-update btn-floating green"
+                <li><a class="tooltipped device-update btn-floating grey"
                        data-position="left" data-tooltip="Firmware Upgrade"><i
                         class="material-icons">system_update_alt</i></a></li>
                 <li><a class="tooltipped device-location btn-floating red"
@@ -1486,6 +1486,9 @@
                 <li><a class="tooltipped device-monitoring btn-floating yellow darken-3"
                        data-position="left" data-tooltip="Monitoring"><i
                         class="material-icons">insert_chart</i></a></li>
+                <li><a class="tooltipped device-refresh btn-floating green darken-3"
+                       data-position="left" data-tooltip="Refresh"><i
+                        class="material-icons">replay</i></a></li>
             </ul>
         </div>
     </div>
@@ -1531,7 +1534,7 @@
                 <i class="material-icons">menu</i>
             </a>
             <ul>
-                <li><a class="tooltipped device-update btn-floating green"
+                <li><a class="tooltipped device-update btn-floating grey"
                        data-position="left" data-tooltip="Firmware Upgrade"><i
                         class="material-icons">system_update_alt</i></a></li>
                 <li><a class="tooltipped device-location btn-floating red"
@@ -1540,6 +1543,9 @@
                 <li><a class="tooltipped device-monitoring btn-floating yellow darken-3"
                        data-position="left" data-tooltip="Monitoring"><i
                         class="material-icons">insert_chart</i></a></li>
+                <li><a class="tooltipped device-refresh btn-floating green darken-3"
+                       data-position="left" data-tooltip="Refresh"><i
+                        class="material-icons">replay</i></a></li>
             </ul>
         </div>
     </div>

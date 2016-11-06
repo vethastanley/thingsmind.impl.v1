@@ -42,23 +42,4 @@ $(document).ready(function(){
             $(".ban-tester8-done").show();
         })
     }) ;
-
 });
-
-/*
-function publishInstall() {
-    console.log("install..");
-    var publishConfig = {
-        channel : "manage",
-        message : "install"
-    }
-    pubnub.publish(publishConfig, function(status, response) {
-        console.log(status, response);
-    })
-}
-
-function publishReboot() {
-
-}
-
-*/
