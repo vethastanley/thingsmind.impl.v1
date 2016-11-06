@@ -79,9 +79,9 @@
                         <td>12-Oct-2016</td>
                         <td><i class="material-icons green-text text-darken-2">thumb_up</i></td>
                     </tr>
-                    <tr class="Bangalore one-device">
+                    <tr class="Hyderabad one-device">
                         <td><img src="${pageContext.request.contextPath}/resources/img/rasp.png"
-                                 class="thingsmind-type"/>parkingpi@Bangalore</td>
+                                 class="thingsmind-type"/>parkingpi@Hyderabad</td>
                         <td>15-Oct-2016</td>
                         <td><b><i class="material-icons green-text text-darken-2">thumb_up</i></b></td>
                     </tr>
@@ -470,8 +470,8 @@
                                             <div class="col s12 m6">
                                                 <!--<div class="card small" style="height: 200px; width: 250px;">-->
                                                 <!--<div class="card-image" style="float: left; width: 45%; height: 120px; left: 10px; top: 10px;">-->
-                                                <div class="card small" style="height: 165px; width: 190px;">
-                                                    <div class="card-image" style="float: left; width: 100%; height: 120px; left: 50px; top: 10px;">
+                                                <div class="card small" style="height: 165px; width: 165px;">
+                                                    <div class="card-image" style="float: left; width: 100%; height: 120px; left: 40px; top: 10px;">
                                                         <i class="large material-icons orange-text text-darken-4">settings_backup_restore</i>
                                                         <!--<i class="large material-icons orange-text text-darken-4">restore</i>-->
                                                         <!--<span class="card-title" style="padding-left: 20px;">Controls</span>-->
@@ -482,7 +482,7 @@
                                                             <!--<p align="left">To control Raspberry PI remotely.</p>-->
                                                         </div>
                                                         <div class="card-action">
-                                                            <a href="#">Reset to Factory</a>
+                                                            <a href="#">Factory Reset</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -646,7 +646,43 @@
                                     </div>
                                 </div>
 
-                                <div class="col s3">
+                                <div class="col s2">
+                                    <div id="bluetooth-cp-container">
+                                        <%--<iframe src="controls/bluetooth-control-panel-cards.htm" width="190px" height="210px" frameborder="0"></iframe>--%>
+                                            <div class="row">
+                                                <div class="col s12 m6">
+                                                    <!--<div class="card small" style="height: 200px; width: 250px;">-->
+                                                    <div class="card small" style="height: 165px; width: 160px;">
+                                                        <div class="card-image" style="float: left; width: 100%; height: 120px; left: 40px; top: 10px;">
+                                                            <!--<img src="img/reboot.jpg" height="100%">-->
+                                                            <i class="large material-icons blue-text text-lighten-1">settings_bluetooth</i>
+                                                            <!--<span class="card-title" style="padding-left: 20px;">Controls</span>-->
+                                                        </div>
+                                                        <!--<div style="width: 50%; float: left;">-->
+                                                        <div style="width: 0%; float: left;">
+
+                                                            <div class="card-content">
+                                                                <p align="left">To increase Raspberry PI volume remotely.</p>
+                                                            </div>
+                                                            <div class="card-action">
+                                                                <!--<a href="#">Bluetooth settings</a>-->
+                                                                <div class="switch">
+                                                                    <label>
+                                                                        Off
+                                                                        <input checked type="checkbox">
+                                                                        <span class="lever"></span>
+                                                                        On
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+
+                                <div class="col s1">
                                     &nbsp;
                                 </div>
                             </div>
@@ -767,6 +803,9 @@
                                         <iframe
                                                 src="${pageContext.request.contextPath}/resources/html/maps/map-chennai.htm"
                                                 width="100%" height="520" frameborder="0"></iframe>
+
+                                        <iframe src="${pageContext.request.contextPath}/resources/html/maps/map-sag-bengaluru.html"
+                                                width="100%" height="520" frameborder="0"></iframe>
                                     </div>
                                 </div>
 
@@ -799,7 +838,7 @@
             </div>
 
             <div class="col s10">
-                <div id="critical-alarm-on-temperature-container">
+                <div id="critical-alarm-on-network-container">
                     <iframe
                             src="${pageContext.request.contextPath}/resources/html/charts/critical-alarm-on-network-down-3d-grouping.htm" width="810px" height="420px" frameborder="0"></iframe>
                 </div>
