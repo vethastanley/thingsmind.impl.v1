@@ -18,7 +18,7 @@ public class ThingsMindRestController {
     @RequestMapping(value = "/getOnboardedStatus", method = RequestMethod.GET)
     public ResponseEntity<String> getOnboardedStatus() throws IOException {
         System.out.println("getOnboardedStatus");
-        String line = null;
+        String line = "";
         BufferedReader reader = null;
         try {
             reader = new BufferedReader(new FileReader(this.getClass().getResource("../pubnub/OnBoardingFile.txt").getPath()));
@@ -27,14 +27,14 @@ public class ThingsMindRestController {
         }
         catch (FileNotFoundException e) {
             e.printStackTrace();
-            Random random = new Random();
+            /*Random random = new Random();
             if (random.nextBoolean()){
                 line = "ONBOARDED";
             }
             else
             {
                 line = "";
-            }
+            }*/
 
 
             System.out.println("Exception occurred.. line is " + line);
