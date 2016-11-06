@@ -415,8 +415,8 @@
                                         <div class="row">
                                             <div class="col s12 m6">
                                                 <!--<div class="card small" style="height: 200px; width: 250px;">-->
-                                                <div class="card small" style="height: 165px; width: 160px;">
-                                                    <div class="card-image" style="float: left; width: 100%; height: 120px; left: 30px; top: 10px;">
+                                                <div class="card small" style="height: 165px; width: 170px;">
+                                                    <div class="card-image" style="float: left; width: 100%; height: 120px; left: 40px; top: 10px;">
                                                         <!--<img src="img/reboot.jpg" height="100%">-->
                                                         <i class="large material-icons blue-text text-darken-1">volume_down</i>
                                                         <!--<span class="card-title" style="padding-left: 20px;">Controls</span>-->
@@ -470,7 +470,7 @@
                                             <div class="col s12 m6">
                                                 <!--<div class="card small" style="height: 200px; width: 250px;">-->
                                                 <!--<div class="card-image" style="float: left; width: 45%; height: 120px; left: 10px; top: 10px;">-->
-                                                <div class="card small" style="height: 165px; width: 165px;">
+                                                <div class="card small" style="height: 165px; width: 170px;">
                                                     <div class="card-image" style="float: left; width: 100%; height: 120px; left: 40px; top: 10px;">
                                                         <i class="large material-icons orange-text text-darken-4">settings_backup_restore</i>
                                                         <!--<i class="large material-icons orange-text text-darken-4">restore</i>-->
