@@ -33,9 +33,48 @@ $(document).ready(function() {
         $(".tester2-done").show();
     });
     $(".tester3").click(function () {
-        $(".tester3-failed").show();
+        $(".tester3-done").show();
+    });
+    $(".tester4").click(function () {
+        $(".tester4-done").show();
+    });
+    $(".tester5").click(function () {
+        $(".tester5-done").show();
+    });
+    $(".tester6").click(function () {
+        $(".tester6-done").show();
+    });
+    $(".tester7").click(function () {
+        $(".tester7-done").show();
+    });
+    $(".tester8").click(function () {
+        $(".tester8-failure").show();
     });
 
+    $(".ban-tester1").click(function () {
+        $(".ban-tester1-done").show();
+    });
+    $(".ban-tester2").click(function () {
+        $(".ban-tester2-done").show();
+    });
+    $(".ban-tester3").click(function () {
+        $(".ban-tester3-done").show();
+    });
+    $(".ban-tester4").click(function () {
+        $(".ban-tester4-done").show();
+    });
+    $(".ban-tester5").click(function () {
+        $(".ban-tester5-done").show();
+    });
+    $(".ban-tester6").click(function () {
+        $(".ban-tester6-done").show();
+    });
+    $(".ban-tester7").click(function () {
+        $(".ban-tester7-done").show();
+    });
+    $(".ban-tester8").click(function () {
+        $(".ban-tester8-done").show();
+    });
 
     var responseValue = '';
     $("#softwareag-bengaluru-refresh").click(function () {

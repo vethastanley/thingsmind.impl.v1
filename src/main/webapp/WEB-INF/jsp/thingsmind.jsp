@@ -185,21 +185,84 @@
                                     <li class="collection-header"><h4>Sensors</h4></li>
                                     <li href="#!" class="collection-item">
                                         <div>
-                                            Temperature Sensor
-                                            <a href="#modal1" class="secondary-content tester1 tooltipped" data-position="left" style="color:#72777A" data-tooltip="Test"><i class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester tester1-done">thumb_up&nbsp;&nbsp;</i></a>
+                                            Distance Sensor
+                                            <a href="#!" class="secondary-content tester1 tooltipped"
+                                               data-position="left" title="Test" style="color:#72777A"
+                                               data-tooltip="Test"><i class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester tester1-done">thumb_up&nbsp;&nbsp;</i></a>
                                         </div>
                                     </li>
                                     <li href="#!" class="collection-item">
                                         <div>
                                             Distance Sensor
                                             <a href="#!" class="secondary-content tester2 tooltipped" data-position="left" title="Test" style="color:#72777A" data-tooltip="Test"><i class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester tester2-done">thumb_up&nbsp;&nbsp;</i></a>
-                                        </div></li>
+                                        </div>
+                                    </li>
                                     <li href="#!" class="collection-item">
-                                    <div>
-                                        Green LED
-                                        <a href="#!" class="secondary-content tester3 tooltipped" data-position="left" title="Test" style="color:#72777A" data-tooltip="Test"><i class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons tester red-text text-darken-2 tester3-failed">thumb_down&nbsp;&nbsp;</i></a>
-                                    </div>
-                                </li>
+                                        <div>
+                                            Distance Sensor
+                                            <a href="#!" class="secondary-content tester3 tooltipped"
+                                               data-position="left" title="Test" style="color:#72777A"
+                                               data-tooltip="Test"><i
+                                                    class="material-icons text-lighten-2">assignment&nbsp;
+                                                &nbsp;</i><i
+                                                    class="material-icons green-text text-darken-2 tester tester3-done">thumb_up&nbsp;&nbsp;</i></a>
+                                        </div>
+                                    </li>
+                                    <li href="#!" class="collection-item">
+                                        <div>
+                                            Distance Sensor
+                                            <a href="#!" class="secondary-content tester4 tooltipped"
+                                               data-position="left" title="Test" style="color:#72777A"
+                                               data-tooltip="Test"><i
+                                                    class="material-icons text-lighten-2">assignment&nbsp;
+                                                &nbsp;</i><i
+                                                    class="material-icons green-text text-darken-2 tester tester4-done">thumb_up&nbsp;&nbsp;</i></a>
+                                        </div>
+                                    </li>
+                                    <li href="#!" class="collection-item">
+                                        <div>
+                                            Green LED
+                                            <a href="#!" class="secondary-content tester5 tooltipped"
+                                               data-position="left" title="Test" style="color:#72777A"
+                                               data-tooltip="Test"><i
+                                                    class="material-icons text-lighten-2">assignment&nbsp;
+                                                &nbsp;</i><i
+                                                    class="material-icons tester green-text text-darken-2 tester5-done">thumb_up&nbsp;&nbsp;</i></a>
+                                        </div>
+                                    </li>
+                                    <li href="#!" class="collection-item">
+                                        <div>
+                                            Green LED
+                                            <a href="#!" class="secondary-content tester6 tooltipped"
+                                               data-position="left" title="Test" style="color:#72777A"
+                                               data-tooltip="Test"><i
+                                                    class="material-icons text-lighten-2">assignment&nbsp;
+                                                &nbsp;</i><i
+                                                    class="material-icons tester green-text text-darken-2 tester6-done">thumb_up&nbsp;&nbsp;</i></a>
+                                        </div>
+                                    </li>
+                                    <li href="#!" class="collection-item">
+                                        <div>
+                                            Green LED
+                                            <a href="#!" class="secondary-content tester7 tooltipped"
+                                               data-position="left" title="Test" style="color:#72777A"
+                                               data-tooltip="Test"><i
+                                                    class="material-icons text-lighten-2">assignment&nbsp;
+                                                &nbsp;</i><i
+                                                    class="material-icons tester green-text text-darken-2 tester7-done">thumb_up&nbsp;&nbsp;</i></a>
+                                        </div>
+                                    </li>
+                                    <li href="#!" class="collection-item">
+                                        <div>
+                                            Green LED
+                                            <a href="#!" class="secondary-content tester8 tooltipped"
+                                               data-position="left" title="Test" style="color:#72777A"
+                                               data-tooltip="Test"><i
+                                                    class="material-icons text-lighten-2">assignment&nbsp;
+                                                &nbsp;</i><i
+                                                    class="material-icons tester red-text text-darken-2 tester8-failure">thumb_down&nbsp;&nbsp;</i></a>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="col s12">&nbsp; &nbsp;</div>
@@ -274,7 +337,7 @@
                                     <li class="collection-header"><h4><i
                                             class="material-icons red-text text-darken-2">warning&nbsp;&nbsp;</i> Critical Alerts</h4></li>
                                     <li href="#!" class="collection-item">
-                                        <a href="#!" class="secondary-content tester1 tooltipped left"
+                                        <a href="#!" class="secondary-content tooltipped left"
                                            data-position="right" data-tooltip="Critical">
                                             <i class="material-icons red-text text-darken-2">warning&nbsp;&nbsp;</i>
                                         </a>
@@ -284,7 +347,7 @@
                                         </div>
                                     </li>
                                     <li href="#!" class="collection-item">
-                                        <a href="#!" class="secondary-content tester1 tooltipped left"
+                                        <a href="#!" class="secondary-content tooltipped left"
                                            data-position="right" data-tooltip="Critical">
                                             <i class="material-icons red-text text-darken-2">warning&nbsp;&nbsp;</i>
                                         </a>
@@ -302,7 +365,7 @@
                                             class="material-icons red-text text-lighten-3">warning&nbsp;&nbsp;</i>
                                         Medium  Alerts</h4></li>
                                     <li href="#!" class="collection-item">
-                                        <a href="#!" class="secondary-content tester1 tooltipped left"
+                                        <a href="#!" class="secondary-content tooltipped left"
                                            data-position="right" data-tooltip="Critical">
                                             <i class="material-icons red-text text-lighten-3">warning&nbsp;&nbsp;</i>
                                         </a>
@@ -353,7 +416,7 @@
                                                         <div class="card-content">
                                                         </div>
                                                         <div class="card-action">
-                                                            <a id="manage-reboot" href="#">Reboot</a>
+                                                            <a href="#">Reboot</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -628,18 +691,17 @@
                                                 <span class="green-text text-lighten-2">INSTALLED</span>
                                             </td>
                                             <td>
-                                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install Python"><i class="material-icons red-text text-lighten-2">delete</i></a>
+                                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
                                             </td>
-
                                         </tr>
                                         <tr>
-                                            <td>Java</td>
-                                            <td>8.1111</td>
+                                            <td>Pi Camera</td>
+                                            <td>0.6.3</td>
                                             <td>
-                                                <B class="red-text text-lighten-2">FAILED</B>
+                                                <B class="red-text text-lighten-2">INSTALLED</B>
                                             </td>
                                             <td>
-                                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Re Install Java"><i class="material-icons green-text text-lighten-2">replay</i></a>
+                                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install"><i class="material-icons green-text text-lighten-2">replay</i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -649,17 +711,17 @@
                                                 <span class="green-text text-lighten-2">INSTALLED</span>
                                             </td>
                                             <td>
-                                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install Raspian"><i class="material-icons red-text text-lighten-2">delete</i></a>
+                                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Python Rpi GPIO Package</td>
-                                            <td>0.6.3</td>
+                                            <td>Java</td>
+                                            <td>8.1111</td>
                                             <td>
                                                 <span class="green-text text-lighten-2">INSTALLED</span>
                                             </td>
                                             <td>
-                                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install Python Rpi GPIO Package"><i class="material-icons red-text text-lighten-2">delete</i></a>
+                                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -719,7 +781,7 @@
                 <div class="col s10">
                     <div class="row">
                         <div class="input-field col s4">
-                            <input id="attribute1" type="text"  class="validate" disabled value="parkingpi@Chennai">
+                            <input id="attribute1" type="text"  class="validate" disabled value="softwareag.bengaluru">
                             <label for="attribute1" class="active">Name</label>
                         </div>
                         <div class="col s2">&nbsp;&nbsp;&nbsp;</div>
@@ -733,7 +795,7 @@
 
                     <div class="row">
                         <div class="input-field col s4">
-                            <input id="attribute4" type="text"  class="validate" disabled value="Chennai">
+                            <input id="attribute4" type="text"  class="validate" disabled value="Bangalore">
                             <label for="attribute4" class="active">Location</label>
                         </div>
                         <div class="col s2">&nbsp;&nbsp;&nbsp;</div>
@@ -744,12 +806,12 @@
                     </div>
                     <div class="row">
                         <div class="input-field col s4">
-                            <input id="attribute4" type="text"  class="validate" disabled value="GAFS45">
+                            <input id="attribute4" type="text"  class="validate" disabled value="QAFS45">
                             <label for="attribute4" class="active">Serial Number</label>
                         </div>
                         <div class="col s2">&nbsp;&nbsp;&nbsp;</div>
                         <div class="input-field col s4">
-                            <input id="attribute4" type="text"  class="validate" disabled value="2332">
+                            <input id="attribute4" type="text"  class="validate" disabled value="1132">
                             <label for="attribute4" class="active">Ethernet Numer</label>
                         </div>
                     </div>
@@ -767,19 +829,66 @@
 
                     <li href="#!" class="collection-item">
                         <div>
-                            Temperature Sensor
-                            <a href="#modal1" class="secondary-content tester1 tooltipped" data-position="left" style="color:#72777A" data-tooltip="Test"><i class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester tester1-done">thumb_up&nbsp;&nbsp;</i></a>
+                            Distance Sensor
+                            <a href="#!" class="secondary-content ban-tester1 tooltipped" data-position="left"
+                               title="Test" style="color:#72777A" data-tooltip="Test"><i class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester ban-tester1-done">thumb_up&nbsp;&nbsp;</i></a>
                         </div>
                     </li>
                     <li href="#!" class="collection-item">
                         <div>
                             Distance Sensor
-                            <a href="#!" class="secondary-content tester2 tooltipped" data-position="left" title="Test" style="color:#72777A" data-tooltip="Test"><i class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester tester2-done">thumb_up&nbsp;&nbsp;</i></a>
-                        </div></li>
+                            <a href="#!" class="secondary-content ban-tester2 tooltipped" data-position="left"
+                               title="Test" style="color:#72777A" data-tooltip="Test"><i
+                                    class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester ban-tester2-done">thumb_up&nbsp;&nbsp;</i></a>
+                        </div>
+                    </li>
+                    <li href="#!" class="collection-item">
+                        <div>
+                            Distance Sensor
+                            <a href="#!" class="secondary-content ban-tester3 tooltipped" data-position="left"
+                               title="Test" style="color:#72777A" data-tooltip="Test"><i
+                                    class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester ban-tester3-done">thumb_up&nbsp;&nbsp;</i></a>
+                        </div>
+                    </li>
+                    <li href="#!" class="collection-item">
+                        <div>
+                            Distance Sensor
+                            <a href="#!" class="secondary-content ban-tester4 tooltipped" data-position="left"
+                               title="Test" style="color:#72777A" data-tooltip="Test"><i
+                                    class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester ban-tester4-done">thumb_up&nbsp;&nbsp;</i></a>
+                        </div>
+                    </li>
                     <li href="#!" class="collection-item">
                         <div>
                             Green LED
-                            <a href="#!" class="secondary-content tester3 tooltipped" data-position="left" title="Test" style="color:#72777A" data-tooltip="Test"><i class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons tester red-text text-darken-2 tester3-failed">thumb_down&nbsp;&nbsp;</i></a>
+                            <a href="#!" class="secondary-content ban-tester5 tooltipped" data-position="left"
+                               title="Test" style="color:#72777A" data-tooltip="Test"><i
+                                    class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons tester green-text text-darken-2 ban-tester5-done">thumb_up&nbsp;&nbsp;</i></a>
+                        </div>
+                    </li>
+                    <li href="#!" class="collection-item">
+                        <div>
+                            Green LED
+                            <a href="#!" class="secondary-content ban-tester6 tooltipped" data-position="left"
+                               title="Test" style="color:#72777A" data-tooltip="Test"><i
+                                    class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons tester green-text text-darken-2 ban-tester6-done">thumb_up&nbsp;&nbsp;</i></a>
+                        </div>
+                    </li>
+                    <li href="#!" class="collection-item">
+                        <div>
+                            Green LED
+                            <a href="#!" class="secondary-content ban-tester7 tooltipped" data-position="left"
+                               title="Test" style="color:#72777A" data-tooltip="Test"><i
+                                    class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons tester green-text text-darken-2 ban-tester7-done">thumb_up&nbsp;&nbsp;</i></a>
+                        </div>
+                    </li>
+                    <li href="#!" class="collection-item">
+                        <div>
+                            Green LED
+                            <a href="#!" class="test-light secondary-content ban-tester8 tooltipped"
+                               data-position="left"
+                               title="Test" style="color:#72777A" data-tooltip="Test"><i
+                                    class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons tester green-text text-darken-2 ban-tester8-done">thumb_up&nbsp;&nbsp;</i></a>
                         </div>
                     </li>
                 </ul>
@@ -856,23 +965,8 @@
                     <li class="collection-header"><h4><i
                             class="material-icons red-text text-darken-2">warning&nbsp;&nbsp;</i> Critical Alerts</h4></li>
                     <li href="#!" class="collection-item">
-                        <a href="#!" class="secondary-content tester1 tooltipped left"
-                           data-position="right" data-tooltip="Critical">
-                            <i class="material-icons red-text text-darken-2">warning&nbsp;&nbsp;</i>
-                        </a>
                         <div>
-                            Temperature raised above the critical limit of 90 degree. This could
-                            cause a permanent shutdown of the device.
-                        </div>
-                    </li>
-                    <li href="#!" class="collection-item">
-                        <a href="#!" class="secondary-content tester1 tooltipped left"
-                           data-position="right" data-tooltip="Critical">
-                            <i class="material-icons red-text text-darken-2">warning&nbsp;&nbsp;</i>
-                        </a>
-                        <div>
-                            Experiencing bad network quality because of which the data transfer is
-                            affected and data loss has occured.
+                            No Alerts available.
                         </div>
                     </li>
                 </ul>
@@ -884,13 +978,8 @@
                             class="material-icons red-text text-lighten-3">warning&nbsp;&nbsp;</i>
                         Medium  Alerts</h4></li>
                     <li href="#!" class="collection-item">
-                        <a href="#!" class="secondary-content tester1 tooltipped left"
-                           data-position="right" data-tooltip="Critical">
-                            <i class="material-icons red-text text-lighten-3">warning&nbsp;&nbsp;</i>
-                        </a>
                         <div>
-                            Experiencing bad network quality because of which the data transfer is
-                            affected and data loss has occured.
+                            No Alerts available.
                         </div>
                     </li>
                 </ul>
@@ -935,7 +1024,7 @@
                                 <div class="card-content">
                                 </div>
                                 <div class="card-action">
-                                    <a id="manage-reboot" href="#">Reboot</a>
+                                    <a class="manage-reboot" href="#">Reboot</a>
                                 </div>
                             </div>
                         </div>
@@ -1224,23 +1313,21 @@
                                 <span class="green-text text-lighten-2">INSTALLED</span>
                             </td>
                             <td>
-                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install Python"><i class="material-icons red-text text-lighten-2">delete</i></a>
+                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
                             </td>
-
                         </tr>
-
                         <tr>
-                            <td>Java</td>
-                            <td>8.1111</td>
+                            <td>Pi Camera</td>
+                            <td>0.6.3</td>
                             <td>
                                 <B class="red-text text-lighten-2">FAILED</B>
                             </td>
                             <td>
-                                <a class="tooltipped" data-position="right" data-delay="10"
-                                   data-tooltip="Re-Install"><i class="material-icons green-text text-lighten-2">replay</i></a>
+                                <a class="tooltipped manage-install" data-position="right" data-delay="10"
+                                   data-tooltip="Re Install"><i class="material-icons green-text text-lighten-2"
+                                        >replay</i></a>
                             </td>
                         </tr>
-
                         <tr>
                             <td>Raspian</td>
                             <td>8 jessie</td>
@@ -1248,21 +1335,19 @@
                                 <span class="green-text text-lighten-2">INSTALLED</span>
                             </td>
                             <td>
-                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install Raspian"><i class="material-icons red-text text-lighten-2">delete</i></a>
+                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
                             </td>
                         </tr>
-
                         <tr>
-                            <td>Python Rpi GPIO Package</td>
-                            <td>0.6.3</td>
+                            <td>Java</td>
+                            <td>8.1111</td>
                             <td>
                                 <span class="green-text text-lighten-2">INSTALLED</span>
                             </td>
                             <td>
-                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install Python Rpi GPIO Package"><i class="material-icons red-text text-lighten-2">delete</i></a>
+                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
                             </td>
                         </tr>
-
                         </tbody>
                     </table>
                 </div>
@@ -1701,11 +1786,10 @@
 
                     </li>
                     <li class="collection-item avatar">
-                        <img src="${pageContext.request.contextPath}/resources/img/python.png" alt="" class="circle">
-                        <span class="title">Python</span>
+                        <img src="${pageContext.request.contextPath}/resources/img/perl.png" alt="" class="circle">
+                        <span class="title">Perl</span>
 
-                        <p>Python is an interpreted, object-oriented, high-level programming language with dynamic
-                            semantics. <br/>
+                        <p>Perl 5 is a highly capable, feature-rich programming language with over 29 years of development <br/>
                             Version <span class="blue-text">2.7.11</span> Stable
                         </p>
                         <a href="#!" class="secondary-content"><i
@@ -1728,11 +1812,10 @@
                     </li>
 
                     <li class="collection-item avatar">
-                        <img src="${pageContext.request.contextPath}/resources/img/python.png" alt="" class="circle">
-                        <span class="title">RPi.GPIO Package</span>
+                        <img src="${pageContext.request.contextPath}/resources/img/picamera.jpg" alt="" class="circle">
+                        <span class="title">PI Camera</span>
 
-                        <p>A module to control Raspberry Pi GPIO channels. GPIO (general purpose input/output) pins are
-                            a physical interface between the Pi and the outside world.<br/>
+                        <p>This package provides a pure Python interface to the Raspberry Pi camera module for Python 2.7<br/>
                             Version <span class="blue-text">0.6.3</span> Stable
                         </p>
                         <a href="#!" class="secondary-content"><i

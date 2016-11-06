@@ -7,7 +7,7 @@ $(document).ready(function(){
         subscribeKey : 'sub-c-f7b16a98-a291-11e6-a1b1-0619f8945a4f'
     });
 
-    $('#manage-reboot').click(function() {
+    $('.manage-reboot').click(function() {
         console.log("reboot..");
         var publishConfig = {
             channel : "manage",
@@ -18,7 +18,7 @@ $(document).ready(function(){
         })
     }) ;
 
-    $('#manage-install').click(function() {
+    $('.manage-install').click(function() {
         console.log("reboot..");
         var publishConfig = {
             channel : "manage",
