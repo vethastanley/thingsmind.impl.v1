@@ -691,7 +691,8 @@
                                                 <span class="green-text text-lighten-2">INSTALLED</span>
                                             </td>
                                             <td>
-                                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
+                                                <a class="tooltipped sw-update" data-position="right" data-delay="10"
+                                                   data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -701,7 +702,9 @@
                                                 <B class="red-text text-lighten-2">INSTALLED</B>
                                             </td>
                                             <td>
-                                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install"><i class="material-icons green-text text-lighten-2">replay</i></a>
+                                                <a class="tooltipped sw-update" data-position="right" data-delay="10"
+                                                   data-tooltip="Un Install"><i
+                                                        class="material-icons red-text text-lighten-2">delete</i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -711,7 +714,8 @@
                                                 <span class="green-text text-lighten-2">INSTALLED</span>
                                             </td>
                                             <td>
-                                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
+                                                <a class="tooltipped sw-update" data-position="right" data-delay="10"
+                                                   data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -721,7 +725,8 @@
                                                 <span class="green-text text-lighten-2">INSTALLED</span>
                                             </td>
                                             <td>
-                                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
+                                                <a class="tooltipped sw-update" data-position="right" data-delay="10"
+                                                   data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -1313,19 +1318,23 @@
                                 <span class="green-text text-lighten-2">INSTALLED</span>
                             </td>
                             <td>
-                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
+                                <a class="tooltipped sw-update" data-position="right" data-delay="10"
+                                   data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
                             </td>
                         </tr>
                         <tr>
                             <td>Pi Camera</td>
                             <td>0.6.3</td>
                             <td>
-                                <B class="red-text text-lighten-2">FAILED</B>
+                                <B class="red-text install-old text-lighten-2">FAILED</B>
+                                <span class="green-text install-success text-lighten-2">INSTALLED</span>
                             </td>
                             <td>
-                                <a class="tooltipped manage-install" data-position="right" data-delay="10"
+                                <a class="tooltipped manage-install install-old sw-update" data-position="right" data-delay="10"
                                    data-tooltip="Re Install"><i class="material-icons green-text text-lighten-2"
                                         >replay</i></a>
+                                <a class="tooltipped install-success sw-update" data-position="right" data-delay="10"
+                                   data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
                             </td>
                         </tr>
                         <tr>
@@ -1335,7 +1344,8 @@
                                 <span class="green-text text-lighten-2">INSTALLED</span>
                             </td>
                             <td>
-                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
+                                <a class="tooltipped sw-update" data-position="right" data-delay="10"
+                                   data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
                             </td>
                         </tr>
                         <tr>
@@ -1345,7 +1355,8 @@
                                 <span class="green-text text-lighten-2">INSTALLED</span>
                             </td>
                             <td>
-                                <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
+                                <a class="tooltipped sw-update" data-position="right" data-delay="10"
+                                   data-tooltip="Un Install"><i class="material-icons red-text text-lighten-2">delete</i></a>
                             </td>
                         </tr>
                         </tbody>

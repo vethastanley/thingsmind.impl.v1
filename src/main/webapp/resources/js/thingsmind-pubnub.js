@@ -19,13 +19,27 @@ $(document).ready(function(){
     }) ;
 
     $('.manage-install').click(function() {
-        console.log("reboot..");
+        console.log("install..");
         var publishConfig = {
             channel : "manage",
             message : "install"
         };
         pubnub.publish(publishConfig, function(status, response) {
             console.log(status, response);
+            $(".install-old").hide();
+            $(".install-success").show();
+        })
+    }) ;
+
+    $('.test-light').click(function() {
+        console.log("ledon..");
+        var publishConfig = {
+            channel : "manage",
+            message : "ledon"
+        };
+        pubnub.publish(publishConfig, function(status, response) {
+            console.log(status, response);
+            $(".ban-tester8-done").show();
         })
     }) ;
 

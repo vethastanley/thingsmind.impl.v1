@@ -25,7 +25,10 @@ $(document).ready(function() {
 
     $(".device-listing-view").show();
 
+    $(".install-success").hide();
+
     $(".tester").hide();
+
     $(".tester1").click(function () {
         $(".tester1-done").show();
     });
@@ -72,9 +75,6 @@ $(document).ready(function() {
     $(".ban-tester7").click(function () {
         $(".ban-tester7-done").show();
     });
-    $(".ban-tester8").click(function () {
-        $(".ban-tester8-done").show();
-    });
 
     var responseValue = '';
     $("#softwareag-bengaluru-refresh").click(function () {
@@ -92,8 +92,8 @@ $(document).ready(function() {
                 }
                 else {
                     $("#softwareag-bengaluru").hide();
-                    $("#india-map-container").hide();
-                    $("#india-map-plus-6th-locationcontainer").show();
+                    $("#india-map-container").show();
+                    $("#india-map-plus-6th-locationcontainer").hide();
                     alert("none display");
                 }
                 responseValue = responseData;

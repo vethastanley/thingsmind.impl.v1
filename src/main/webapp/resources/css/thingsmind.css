@@ -21,6 +21,10 @@
     cursor: pointer;
 }
 
+.sw-update {
+    cursor: pointer;
+}
+
 .force-down {
     position: absolute;
     top: 13px;
