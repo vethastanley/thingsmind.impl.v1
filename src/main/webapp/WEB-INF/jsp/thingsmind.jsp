@@ -1289,7 +1289,7 @@
                 </div>
 
                 <div class="col s11">
-                    <div id="map-chennai-container">
+                    <div id="map-sag-container">
                         <iframe src="${pageContext.request.contextPath}/resources/html/maps/map-sag-bengaluru.html"
                                 width="100%" height="520" frameborder="0"></iframe>
                     </div>
