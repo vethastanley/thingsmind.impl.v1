@@ -965,6 +965,25 @@
                     &nbsp;
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col s.5">
+                    &nbsp;
+                </div>
+
+                <div class="col s11">
+                    <div id="india-map-plus-6th-locationcontainer">
+                        <iframe src="${pageContext.request.contextPath}/resources/html/maps/map-india-plus-6th-location.htm" width="1230"
+                                height="590"
+                                frameborder="0"></iframe>
+                    </div>
+                </div>
+
+                <div class="col s.5">
+                    &nbsp;
+                </div>
+            </div>
+
         </div>
         <div class="fixed-action-btn">
             <a class="btn-floating btn-large blue">
