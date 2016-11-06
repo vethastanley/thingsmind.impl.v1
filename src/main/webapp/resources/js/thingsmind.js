@@ -4,7 +4,7 @@
 
 var leftmenus = [".device-listing", ".device-monitoring", ".device-location", ".management-device", ".management-controlpanel",
     ".management-monitoring", ".management-alarms", ".management-firmware", ".integration-listing", ".edit-device", ".one-device",
-    ".one-device-info", ".one-device-child", ".one-device-healthcheck", ".one-device-monitor", ".device-update"];
+    ".one-device-info", ".one-device-child", ".one-device-healthcheck", ".one-device-monitor", ".device-update", ".one-device-bangalore"];
 
 $(document).ready(function() {
     $('.button-collapse').sideNav({
