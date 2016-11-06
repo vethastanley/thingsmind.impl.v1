@@ -43,20 +43,29 @@
             <div class="col s12">
                 <h3 class="red-text text-lighten-2">On-Boarded Devices</h3>
             </div>
-            <div class="col s12">
+            <div class="col s11">
                 &nbsp;
             </div>
+            <div class="col s1">
+                <a id="softwareag-bengaluru-refresh" href="#" class="text-darken-2 green-text"><i class="material-icons">replay</i> refresh</a>
+                </div>
             <div class="col s12 center-align">
                 <table class="devices-table highlight">
                     <thead>
                     <tr>
-                        <th data-field="id">Name</th>
+                        <th data-field="name">Name</th>
                         <th data-field="date">Onboarded Date</th>
-                        <th data-field="price">Status</th>
+                        <th data-field="status">Status</th>
                     </tr>
                     </thead>
 
                     <tbody>
+                    <tr id="softwareag-bengaluru" class="sag-bengaluru one-device">
+                        <td><img src="${pageContext.request.contextPath}/resources/img/rasp.png"
+                                 class="thingsmind-type"/>parkingpi@softwareag.bengaluru</td>
+                        <td>16-Sep-2016</td>
+                        <td><i class="material-icons green-text text-darken-2">thumb_up</i></td>
+                    </tr>
                     <tr class="Chennai one-device">
                         <td><img src="${pageContext.request.contextPath}/resources/img/rasp.png"
                                  class="thingsmind-type"/>parkingpi@Chennai</td>
