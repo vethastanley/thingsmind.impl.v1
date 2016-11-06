@@ -67,9 +67,9 @@
                         <td>09-Oct-2016</td>
                         <td><i class="material-icons green-text text-darken-2">thumb_up</i></td>
                     </tr>
-                    <tr class="Calcutta one-device">
+                    <tr class="Kolkata one-device">
                         <td><img src="${pageContext.request.contextPath}/resources/img/rasp.png"
-                                 class="thingsmind-type"/>parkingpi@Calcutta</td>
+                                 class="thingsmind-type"/>parkingpi@Kolkata</td>
                         <td>09-Oct-2016</td>
                         <td><i class="material-icons red-text">thumb_down</i></td>
                     </tr>
