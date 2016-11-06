@@ -37,18 +37,29 @@ $(document).ready(function() {
     });
 
 
+    var responseValue = '';
     $("#softwareag-bengaluru-refresh").click(function () {
         $.ajax({
             type: "GET",
-            dataType: "jsonp",
+            /*dataType: "jsonp",*/
             url: "http://localhost:8080/thingsmind/getOnboardedStatus",
-            success: function (data) {
-                alert(data);
+            success: function (responseData) {
+                alert(responseData);
+                if (responseData === 'ONBOARDED') {
+                    document.getElementById("softwareag-bengaluru").style.display = 'block';
+                    alert("block display");
+                }
+                else {
+                    document.getElementById("softwareag-bengaluru").style.display = 'none';
+                    alert("none display");
+                }
+                responseValue = responseData;
             }
+
         });
     });
 
-
+    alert("responseData : " + responseValue);
 });
 
 function hideAll(menus) {
@@ -58,12 +69,12 @@ function hideAll(menus) {
     });
 }
 
-function showLocation() {
+/*function showLocation() {
     if( document.getElementById("softwareag-bengaluru").style.display == 'none' ){
-        document.getElementById("softwareag-bengaluru").style.display = '';
+        document.getElementById("softwareag-bengaluru").style.display = 'block';
     }else{
         document.getElementById("softwareag-bengaluru").style.display = 'none';
     }
-}
+}*/
 
 

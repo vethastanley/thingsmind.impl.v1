@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.*;
+import java.util.Random;
 
 /**
  * Created by VST on 06-11-2016.
@@ -22,7 +23,23 @@ public class ThingsMindRestController {
         try {
             reader = new BufferedReader(new FileReader(this.getClass().getResource("../pubnub/OnBoardingFile.txt").getPath()));
             line = reader.readLine();
-        } catch (IOException e) {
+            System.out.println("line is " + line);
+        }
+        catch (FileNotFoundException e) {
+            e.printStackTrace();
+            Random random = new Random();
+            if (random.nextBoolean()){
+                line = "ONBOARDED";
+            }
+            else
+            {
+                line = "";
+            }
+
+
+            System.out.println("Exception occurred.. line is " + line);
+        }
+        catch (IOException e) {
             e.printStackTrace();
         } finally {
             if (reader != null) {
