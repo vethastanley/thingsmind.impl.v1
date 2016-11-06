@@ -85,11 +85,15 @@ $(document).ready(function() {
             success: function (responseData) {
                 alert(responseData);
                 if (responseData === 'ONBOARDED') {
-                    document.getElementById("softwareag-bengaluru").style.display = 'block';
+                    $("#softwareag-bengaluru").show();
+                    $("#india-map-container").hide();
+                    $("#india-map-plus-6th-locationcontainer").show();
                     alert("block display");
                 }
                 else {
-                    document.getElementById("softwareag-bengaluru").style.display = 'none';
+                    $("#softwareag-bengaluru").hide();
+                    $("#india-map-container").hide();
+                    $("#india-map-plus-6th-locationcontainer").show();
                     alert("none display");
                 }
                 responseValue = responseData;
