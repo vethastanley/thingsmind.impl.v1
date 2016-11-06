@@ -12,6 +12,8 @@
     <script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.1.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/materialize.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/thingsmind.js"></script>
+    <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.2.4.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/thingsmind-pubnub.js"></script>
 </head>
 <body>
 <!-- Left Navigation and Header -->
@@ -374,7 +376,7 @@
                                                             <!--<p align="left">To control Raspberry PI remotely.</p>-->
                                                         </div>
                                                         <div class="card-action">
-                                                            <a href="#">Reboot</a>
+                                                            <a id="manage-reboot" href="#">Reboot</a>
                                                         </div>
                                                     </div>
                                                 </div>
