@@ -24,6 +24,7 @@ $(document).ready(function() {
     });
 
     $(".device-listing-view").show();
+    $("#modal2").hide();
 
     $(".install-success").hide();
 
@@ -78,6 +79,11 @@ $(document).ready(function() {
 
     $(".device-refresh").click(function () {
         refreshOnBoardingStatus();
+    });
+
+    $(".device-onboard").click(function () {
+        $("#modal2").find("#serialnumber").clear();
+        $("#modal2").show();
     });
 
     refreshOnBoardingStatus();

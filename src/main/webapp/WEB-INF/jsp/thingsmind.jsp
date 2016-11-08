@@ -39,6 +39,43 @@
 <!-- Device View -->
 <div class="row thingsmind-container">
     <div class="col s12 device-listing-view">
+        <!-- Modal Structure -->
+        <div id="modal2" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>&nbsp;&nbsp;&nbsp;&nbsp;Onboard Device</h4>
+
+                <div class="col s12">
+                    &nbsp;
+                </div>
+
+                <div class="row">
+                    <div class="col s1">
+                        &nbsp;
+                    </div>
+
+                    <div class="col s10">
+                        <div class="row">
+                            <form>
+                                <div class="input-field col s6">
+                                    <input id="serialnumber" type="text" class="validate">
+                                    <label for="serialnumber">Serial Number</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col s1">
+                        &nbsp;
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-light btn">Add</a>
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cancel</a>
+            </div>
+        </div>
         <div class="row">
             <div class="col s12">
                 <h3 class="red-text text-lighten-2">On-Boarded Devices</h3>
@@ -60,13 +97,13 @@
                     <tr id="softwareag-bengaluru" class="sag-bengaluru one-device-bangalore">
                         <td><img src="${pageContext.request.contextPath}/resources/img/rasp.png"
                                  class="thingsmind-type"/>parkingpi@softwareag.bengaluru</td>
-                        <td>16-Sep-2016</td>
+                        <td>8-Nov-2016</td>
                         <td><i class="material-icons green-text text-darken-2">thumb_up</i></td>
                     </tr>
                     <tr class="Chennai one-device">
                         <td><img src="${pageContext.request.contextPath}/resources/img/rasp.png"
                                  class="thingsmind-type"/>parkingpi@Chennai</td>
-                        <td>16-Sep-2016</td>
+                        <td>16-Oct-2016</td>
                         <td><i class="material-icons green-text text-darken-2">thumb_up</i></td>
                     </tr>
                     <tr class="Mumbai one-device">
@@ -84,13 +121,13 @@
                     <tr class="Delhi one-device">
                         <td><img src="${pageContext.request.contextPath}/resources/img/arduino.png"
                                  class="thingsmind-type"/>parkingpi@Delhi</td>
-                        <td>12-Oct-2016</td>
+                        <td>2-Oct-2016</td>
                         <td><i class="material-icons green-text text-darken-2">thumb_up</i></td>
                     </tr>
                     <tr class="Hyderabad one-device">
                         <td><img src="${pageContext.request.contextPath}/resources/img/rasp.png"
                                  class="thingsmind-type"/>parkingpi@Hyderabad</td>
-                        <td>15-Oct-2016</td>
+                        <td>1-Oct-2016</td>
                         <td><b><i class="material-icons green-text text-darken-2">thumb_up</i></b></td>
                     </tr>
                     </tbody>
@@ -112,6 +149,11 @@
                         <li><a class="tooltipped device-refresh btn-floating green darken-3"
                                data-position="left" data-tooltip="Refresh"><i
                                 class="material-icons">replay</i></a></li>
+                        <li><a class="tooltipped device-onboard btn-floating green darken-3 modal-trigger" data-target="modal2"
+                               data-position="left" data-tooltip="Onboard device"><i
+                                class="material-icons">add</i></a></li>
+
+
                     </ul>
                 </div>
             </div>
@@ -168,7 +210,7 @@
                                         </div>
                                         <div class="col s2">&nbsp;&nbsp;&nbsp;</div>
                                         <div class="input-field col s4">
-                                            <input id="attribute4" type="text"  class="validate" disabled value="2332">
+                                            <input id="attribute4" type="text"  class="validate" disabled value="eth0">
                                             <label for="attribute4" class="active">Ethernet Numer</label>
                                         </div>
                                     </div>
@@ -185,7 +227,7 @@
                                     <li class="collection-header"><h4>Sensors</h4></li>
                                     <li href="#!" class="collection-item">
                                         <div>
-                                            Distance Sensor
+                                            L1-Distance Sensor
                                             <a href="#!" class="secondary-content tester1 tooltipped"
                                                data-position="left" title="Test" style="color:#72777A"
                                                data-tooltip="Test"><i class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester tester1-done">thumb_up&nbsp;&nbsp;</i></a>
@@ -193,13 +235,13 @@
                                     </li>
                                     <li href="#!" class="collection-item">
                                         <div>
-                                            Distance Sensor
+                                            L2-Distance Sensor
                                             <a href="#!" class="secondary-content tester2 tooltipped" data-position="left" title="Test" style="color:#72777A" data-tooltip="Test"><i class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester tester2-done">thumb_up&nbsp;&nbsp;</i></a>
                                         </div>
                                     </li>
                                     <li href="#!" class="collection-item">
                                         <div>
-                                            Distance Sensor
+                                            R1-Distance Sensor
                                             <a href="#!" class="secondary-content tester3 tooltipped"
                                                data-position="left" title="Test" style="color:#72777A"
                                                data-tooltip="Test"><i
@@ -210,7 +252,7 @@
                                     </li>
                                     <li href="#!" class="collection-item">
                                         <div>
-                                            Distance Sensor
+                                            R2-Distance Sensor
                                             <a href="#!" class="secondary-content tester4 tooltipped"
                                                data-position="left" title="Test" style="color:#72777A"
                                                data-tooltip="Test"><i
@@ -221,7 +263,7 @@
                                     </li>
                                     <li href="#!" class="collection-item">
                                         <div>
-                                            Green LED
+                                            L1-LED
                                             <a href="#!" class="secondary-content tester5 tooltipped"
                                                data-position="left" title="Test" style="color:#72777A"
                                                data-tooltip="Test"><i
@@ -232,7 +274,7 @@
                                     </li>
                                     <li href="#!" class="collection-item">
                                         <div>
-                                            Green LED
+                                            L2-LED
                                             <a href="#!" class="secondary-content tester6 tooltipped"
                                                data-position="left" title="Test" style="color:#72777A"
                                                data-tooltip="Test"><i
@@ -243,7 +285,7 @@
                                     </li>
                                     <li href="#!" class="collection-item">
                                         <div>
-                                            Green LED
+                                            R1-LED
                                             <a href="#!" class="secondary-content tester7 tooltipped"
                                                data-position="left" title="Test" style="color:#72777A"
                                                data-tooltip="Test"><i
@@ -254,7 +296,7 @@
                                     </li>
                                     <li href="#!" class="collection-item">
                                         <div>
-                                            Green LED
+                                            R2-LED
                                             <a href="#!" class="secondary-content tester8 tooltipped"
                                                data-position="left" title="Test" style="color:#72777A"
                                                data-tooltip="Test"><i
@@ -816,7 +858,7 @@
                         </div>
                         <div class="col s2">&nbsp;&nbsp;&nbsp;</div>
                         <div class="input-field col s4">
-                            <input id="attribute4" type="text"  class="validate" disabled value="1132">
+                            <input id="attribute4" type="text"  class="validate" disabled value="eth0">
                             <label for="attribute4" class="active">Ethernet Numer</label>
                         </div>
                     </div>
@@ -834,14 +876,14 @@
 
                     <li href="#!" class="collection-item">
                         <div>
-                            Distance Sensor
+                            L1-Distance Sensor
                             <a href="#!" class="secondary-content ban-tester1 tooltipped" data-position="left"
                                title="Test" style="color:#72777A" data-tooltip="Test"><i class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester ban-tester1-done">thumb_up&nbsp;&nbsp;</i></a>
                         </div>
                     </li>
                     <li href="#!" class="collection-item">
                         <div>
-                            Distance Sensor
+                            L2-Distance Sensor
                             <a href="#!" class="secondary-content ban-tester2 tooltipped" data-position="left"
                                title="Test" style="color:#72777A" data-tooltip="Test"><i
                                     class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester ban-tester2-done">thumb_up&nbsp;&nbsp;</i></a>
@@ -849,7 +891,7 @@
                     </li>
                     <li href="#!" class="collection-item">
                         <div>
-                            Distance Sensor
+                            R1-Distance Sensor
                             <a href="#!" class="secondary-content ban-tester3 tooltipped" data-position="left"
                                title="Test" style="color:#72777A" data-tooltip="Test"><i
                                     class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester ban-tester3-done">thumb_up&nbsp;&nbsp;</i></a>
@@ -857,7 +899,7 @@
                     </li>
                     <li href="#!" class="collection-item">
                         <div>
-                            Distance Sensor
+                            R2-Distance Sensor
                             <a href="#!" class="secondary-content ban-tester4 tooltipped" data-position="left"
                                title="Test" style="color:#72777A" data-tooltip="Test"><i
                                     class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons green-text text-darken-2 tester ban-tester4-done">thumb_up&nbsp;&nbsp;</i></a>
@@ -865,7 +907,7 @@
                     </li>
                     <li href="#!" class="collection-item">
                         <div>
-                            Green LED
+                            L1-LED
                             <a href="#!" class="secondary-content ban-tester5 tooltipped" data-position="left"
                                title="Test" style="color:#72777A" data-tooltip="Test"><i
                                     class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons tester green-text text-darken-2 ban-tester5-done">thumb_up&nbsp;&nbsp;</i></a>
@@ -873,7 +915,7 @@
                     </li>
                     <li href="#!" class="collection-item">
                         <div>
-                            Green LED
+                            L2-LED
                             <a href="#!" class="secondary-content ban-tester6 tooltipped" data-position="left"
                                title="Test" style="color:#72777A" data-tooltip="Test"><i
                                     class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons tester green-text text-darken-2 ban-tester6-done">thumb_up&nbsp;&nbsp;</i></a>
@@ -881,7 +923,7 @@
                     </li>
                     <li href="#!" class="collection-item">
                         <div>
-                            Green LED
+                            R1-LED
                             <a href="#!" class="secondary-content ban-tester7 tooltipped" data-position="left"
                                title="Test" style="color:#72777A" data-tooltip="Test"><i
                                     class="material-icons text-lighten-2">assignment&nbsp;&nbsp;</i><i class="material-icons tester green-text text-darken-2 ban-tester7-done">thumb_up&nbsp;&nbsp;</i></a>
@@ -889,7 +931,7 @@
                     </li>
                     <li href="#!" class="collection-item">
                         <div>
-                            Green LED
+                            R2-LED
                             <a href="#!" class="test-light secondary-content ban-tester8 tooltipped"
                                data-position="left"
                                title="Test" style="color:#72777A" data-tooltip="Test"><i
@@ -1489,6 +1531,9 @@
                 <li><a class="tooltipped device-refresh btn-floating green darken-3"
                        data-position="left" data-tooltip="Refresh"><i
                         class="material-icons">replay</i></a></li>
+                <li><a class="tooltipped device-onboard btn-floating green darken-3  modal-trigger" data-target="modal2"
+                       data-position="left" data-tooltip="Onboard device"><i
+                        class="material-icons">add</i></a></li>
             </ul>
         </div>
     </div>
@@ -1546,6 +1591,9 @@
                 <li><a class="tooltipped device-refresh btn-floating green darken-3"
                        data-position="left" data-tooltip="Refresh"><i
                         class="material-icons">replay</i></a></li>
+                <li><a class="tooltipped device-onboard btn-floating green darken-3  modal-trigger" data-target="modal2"
+                       data-position="left" data-tooltip="Onboard device"><i
+                        class="material-icons">add</i></a></li>
             </ul>
         </div>
     </div>
@@ -1924,7 +1972,6 @@
                     <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cancel</a>
                 </div>
             </div>
-
             <script>
                 $(document).ready(function () {
                     $('.modal-trigger').leanModal();
